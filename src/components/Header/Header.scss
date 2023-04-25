@@ -1,0 +1,68 @@
+.header {
+    border-top: 5px solid var(--primary-color);
+
+    .wrapper-header {
+        width: 1200px;
+        margin: 0 auto;
+
+        &__top {
+            margin-top: 3px;
+            display: flex;
+            justify-content: space-between;
+
+            &__navigate {
+                display: flex;
+                justify-content: flex-start;
+
+                &__facebook {
+                    margin-right: 40px;
+                    color: var(--text-color);
+
+                    &:hover {
+                        cursor: pointer;
+                        color: var(--primary-color);
+                    }
+                }
+
+                &__address {
+                    margin-right: 40px;
+                    color: var(--text-color);
+
+                    :hover {
+                        cursor: pointer;
+                        color: var(--primary-color);
+                    }
+                }
+
+                &__inbox {
+                    color: var(--text-color);
+
+                    :hover {
+                        cursor: pointer;
+                        color: var(--primary-color);
+                    }
+                }
+            }
+
+            &__other {
+                display: flex;
+                justify-content: flex-end;
+
+                &__cart {
+                    margin-left: 40px;
+                    color: var(--text-color);
+                }
+
+                &__favourite {
+                    margin-left: 40px;
+                    color: var(--text-color);
+                }
+
+                &__login {
+                    color: var(--text-color);
+                }
+            }
+
+        }
+    }
+}

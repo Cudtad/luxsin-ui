@@ -1,5 +1,14 @@
+import Header from "~/components/Header/Header";
+
 function Home() {
-    return <h2>Home pages</h2>;
+    return (
+        <div className="home">
+            <Header/>
+            <div className="container">
+                
+            </div>
+        </div>
+    );
 }
 
 export default Home;
